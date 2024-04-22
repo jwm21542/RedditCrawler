@@ -69,7 +69,7 @@ subreddit_url = f'{sub}/top/?t=week'
 
 
 ### ChromeDriver 사용전: 
-최신 ChromeDriver 파일을 다운로드했는지 확인하십시오. 여기에서 찾을 수 있습니다. 사용 중인 OS 및 Chrome 버전에 맞는 것을 가져오십시오. Chrome을 업데이트해야 할 수도 있습니다.
+최신 ChromeDriver 파일을 다운로드했는지 확인하세요. 여기에서 찾을 수 있습니다. 사용 중인 OS 및 Chrome 버전에 맞는 것을 가져오세요. Chrome을 업데이트해야 할 수도 있습니다.
 
 py 파일의 48, 90번째 줄에서 다음 줄을 볼 수 있습니다:
 ```
