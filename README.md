@@ -32,7 +32,7 @@ driver = webdriver.Chrome(options=options, executable_path=ChromeDriverManager()
 
 This is to create a driver instance in **Linux**. You will have to change this line if your OS is NOT linux. 
 
-For example, this would be what you would change it to in Windows:
+For example, this would be what you would change it to in **Windows**:
 ```
 # Specify the path to the ChromeDriver executable if not added to PATH
 chrome_driver_path = 'path/to/chromedriver.exe'
@@ -76,7 +76,7 @@ driver = webdriver.Chrome(options=options, executable_path=ChromeDriverManager()
 
 이것은 **리눅스**에서 드라이버 인스턴스를 만드는 것입니다. 사용 중인 OS가 리눅스가 아닌 경우 이 줄을 변경해야 합니다.
 
-예를 들어, 윈도우에서는 다음과 같이 변경해야 합니다:
+예를 들어, **윈도우**에서는 다음과 같이 변경해야 합니다:
 ```
 # Specify the path to the ChromeDriver executable if not added to PATH
 chrome_driver_path = 'path/to/chromedriver.exe'
