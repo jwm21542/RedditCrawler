@@ -132,7 +132,7 @@ def reddit_scrape(subreddit,driver):
     
 subs = pd.read_excel(PATH + 'SubredditList.xlsx')
 subreddits = subs['url']
-final_df = pd.DataFrame(columns=['post_detail', 'platform', 'genre', 'post_like', 'post_created_time', 'post_source'])
+final_df = pd.DataFrame(columns=['post_detail', 'platform', 'post_like', 'post_created_time', 'post_source'])
 for sub in subreddits:
     driver = webdriver.Chrome(options=options, executable_path=ChromeDriverManager().install())
     # Construct the URL for the subreddit. You may need to update this if Reddit changes the form of their URL. Also update week to hour, day, year, or all depending on what you need.
