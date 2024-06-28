@@ -44,7 +44,7 @@ driver = webdriver.Chrome(executable_path=chrome_driver_path)
 As reference, please view the file RedditCrawlerResults.csv for what a resulting file would look like.
 
 # 레딧 크롤러
-### 레딧 API를 획득하기가 매우 어려워서, 지정된 서브레딧에서 댓글 및 댓글 정보를 가져오기 위해 Selenium을 사용한 레딧 웹 크롤러/스크래퍼를 만들었습니다.
+### 레딧 API를 받기 힘들다. API 대신 지정된 서브레딧에서 댓글 및 댓글 정보를 가져오기 위해 Selenium을 사용한 레딧 웹 크롤러/스크래퍼를 만들었습니다.
 
 ### 필요한 라이브러리:
 - Selenium
